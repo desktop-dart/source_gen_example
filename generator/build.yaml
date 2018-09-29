@@ -1,0 +1,7 @@
+builders:
+  generator:
+    import: "package:generator/builder.dart"
+    builder_factories: ["exampleBuilder"]
+    build_extensions: {".dart": [".example.dart"]}
+    auto_apply: root_package
+    build_to: source
